@@ -1,0 +1,33 @@
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col d-flex justify-content-center">
+            <div class="card my-2">
+                <div class="text-center m-3">
+                    <h1 class="d-flex justify-content-center bg-dark text-light fw-bold">Sign Up</h1>
+                    <h4 class="d-flex justify-content-center mt-3">Please enter the required fileds to register!</h4>
+                </div>
+                <form [formGroup]="signUpForm" (ngSubmit)="signup()">
+                    <div class="m-3">
+                        <label for="txtUserName" class="form-lable">Username</label>
+                        <input formControlName="username"  required="true" id ="txtUserName"class="form-control" type="text">
+                    </div>
+                    <div class="m-3">
+                        <label for="txtmobile" class="form-lable">Mobile</label>
+                        <input formControlName="mobile" required="true" id ="txtmobile"class="form-control" type="number">
+                    </div>
+                    <div class="m-3">
+                        <label for="txtUserName" class="form-lable">Email</label>
+                        <input formControlName="email" required="true" id ="txtUserName"class="form-control" type="email">
+                    </div>
+                    <div class="m-3">
+                        <label for="txtPasswor" class="form-lable">Password</label>
+                        <input formControlName="password" required="true" id="txtPasswor" type="password" class="form-control">
+                    </div>
+                    <button class="btn btn-dark align-center m-3" >signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a routerLink="/" class="navbar-brand">
+            <i class="fa fa-mobile text-muted fw-bold"></i><span class="text-light fw-bold">Contact Manager</span></a>
+            <div class="d-flex">
+                <ul class="navbar-nav">
+                  <li class="nv-item" >
+                    <a class="nav-link" routerLink="/">home</a>
+                  </li>
+                  <li class="nv-item " *ngIf="">
+                    <a class="nav-link" routerLink="contacts/login">Login</a>
+                  </li>
+                  <li class="nv-item" *ngIf="">
+                    <a class="nav-link" routerLink="contacts/signup">Signup</a>
+                  </li>
+                  <li class="nv-item" *ngIf="">
+                    <a class="nav-link" routerLink="/">logout</a>
+                  </li>    
+                </ul>
+            </div>
+    </div>
+</nav>

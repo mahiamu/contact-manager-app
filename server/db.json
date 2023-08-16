@@ -1,0 +1,82 @@
+{
+  "payload": [
+    {
+      "username": "test",
+      "password": "1234"
+    }
+  ],
+  "signupUsers": [
+    {
+      "username": "test",
+      "mobile": 913275997,
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "test1",
+      "mobile": 913275997,
+      "email": "test1@test.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "id": "AA@$s123",
+      "name": "mahlet",
+      "photo": "https://cdn-icons-png.flaticon.com/512/149/149452.png",
+      "mobile": "0984078086",
+      "email": "mahi@gamil.com",
+      "title": "comp eng",
+      "company": " software dev",
+      "groupId": "2"
+    },
+    {
+      "id": "AA@123",
+      "name": "sky",
+      "photo": "https://cdn-icons-png.flaticon.com/512/660/660611.png",
+      "mobile": "0984076116",
+      "email": "sky@gamil.com",
+      "title": "comp eng",
+      "company": "minab software dev",
+      "groupId": "3"
+    },
+    {
+      "id": "A$s123",
+      "name": "robel",
+      "photo": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+      "mobile": 910451724,
+      "email": "0bii@gamil.com",
+      "title": "comp eng",
+      "company": "minab software dev",
+      "groupId": "2"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "colleague"
+    },
+    {
+      "id": "2",
+      "name": "friend"
+    },
+    {
+      "id": "3",
+      "name": "family"
+    },
+    {
+      "id": "4",
+      "name": "service"
+    },
+    {
+      "id": "5",
+      "name": "commity"
+    },
+    {
+      "id": "6",
+      "name": "social"
+    }
+  ]
+}

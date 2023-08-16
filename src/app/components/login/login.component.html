@@ -1,0 +1,24 @@
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col d-flex justify-content-center">
+            <div class="card my-5">
+                <div class="text-center m-3">
+                    <h1 class="d-flex justify-content-center bg-dark text-light fw-bold">Login</h1>
+                    <h4 class="d-flex justify-content-center mt-3">Please enter email and password!</h4>
+                </div>
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <div class="m-3">
+                        <label for="txtUserName" class="form-lable">Username</label>
+                        <input  formControlName="username" required="true" id ="txtUserName"class="form-control" type="text">
+                    </div>
+                    <div class="m-3">
+                        <label for="txtPasswor" class="form-lable">Password</label>
+                        <input formControlName="password" required="true" id="txtPasswor" type="password" class="form-control">
+                    </div>
+                    <button class="btn btn-dark align-center m-3" >Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
